@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	p Have some vegetables:
+
+	ul
+		for vegetable in vegetables
+			li #{vegetable}
+			li= vegetable + "s rock!"
+	
+	ul
+		for user in userList
+			li= user
+                
